@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header,
+footer {
+    flex: 1 0 auto;
+    color: rgb(134, 221, 199);
+    background-color: rgb(4, 53, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 10 0 auto;
+    margin: 1rem;
+    padding: 1rem;
+}
